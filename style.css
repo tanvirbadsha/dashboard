@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.main-container {
+  position: relative;
+  z-index: -1;
+}
+.first-column {
+  background-color: black;
+  color: white;
+  padding: 40px 80px;
+  height: 100vh;
+}
+.second-column {
+  /* display: flex; */
+  max-width: 1060px;
+  height: 94vh;
+  margin: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: -900px;
+  margin-left: 500px;
+  border-radius: 20px;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.third-column {
+  width: 360px;
+  padding: 20px;
+  background-color: #f9fafc;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 0px 20px 20px 0px;
+  height: 100%;
+}
+.notification {
+  width: 29px;
+  height: 29px;
+  position: relative;
+  z-index: 1;
+  margin-top: -83px;
+  margin-left: 60px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px;
+  text-align: center;
+}
+.profile {
+  width: 72px;
+  height: 72px;
+}
+.contents {
+  margin-top: 70px;
+}
+.contents .name {
+  width: 163px;
+  height: 35px;
+}
+.menus {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.62);
+}
+.menus :nth-child(2) {
+  color: rgba(255, 255, 255, 1);
+}
+.menus:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+}
+.email {
+  margin-top: 20px;
+  opacity: 60%;
+}
+
+.progress-container {
+  width: 250px;
+  background-color: #eceff5;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 5px;
+  background-color: #31ba96;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  border-radius: 25px 0 0 25px;
+}
+.food {
+  width: 70px;
+}
+.shopping {
+  width: 110px;
+}
+.housing {
+  width: 90px;
+}
+.transportation {
+  width: 60px;
+}
+.item-container {
+  margin-bottom: 20px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 0px;
+}
+.third-title {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.34px;
+}
+.third-p {
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.43px;
+}
+.third-btn {
+  width: 200px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+}
+.third-btn:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.39);
+}
+.last-item {
+  background-image: url("./resources/Rectangle.png");
+  width: 250px;
+  height: 240px;
+  padding: 10px;
+  text-align: center;
+  padding-top: 80px;
+  position: relative;
+  margin-top: 50px;
+}
+.background {
+  position: absolute;
+  z-index: 1;
+  margin-top: -5px;
+}
+.img-left {
+}
+.img-right {
+  margin-left: 100px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
